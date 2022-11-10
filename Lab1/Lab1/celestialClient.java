@@ -5,48 +5,41 @@ import java.util.Scanner;
 public class celestialClient {
 
     public static void main(String[] args) throws IOException {
-        /*
-        CelestialObject x = new CelestialObject();
-        System.out.println("Name: " + x.getName());
-        System.out.println("Diameter: " + x.getDiameter());
-        System.out.println("Temperature: " + x.getTemperature());
+        
+        // CelestialObject x = new CelestialObject();
+        // System.out.println("Name: " + x.getName());
+        // System.out.println("Diameter: " + x.getDiameter());
+        // System.out.println("Temperature: " + x.getTemperature());
     
-         
+        // CelestialObject y = new CelestialObject();
+        // System.out.println("Name: " + y.getName());
+        // System.out.println("Diameter: " + y.getDiameter());
+        // System.out.println("Temperature: " + y.getTemperature());
+        // y.setName("CY-56");
+        // y.setDiameter(4000);
+        // y.setTemperature(700);
+        // System.out.println("Name: " + y.getName());
+        // System.out.println("Diameter: " + y.getDiameter());
+        // System.out.println("Temperature: " + y.getTemperature());
 
-        
-        CelestialObject y = new CelestialObject();
-        System.out.println("Name: " + y.getName());
-        System.out.println("Diameter: " + y.getDiameter());
-        System.out.println("Temperature: " + y.getTemperature());
-        y.setName("CY-56");
-        y.setDiameter(4000);
-        y.setTemperature(700);
-        System.out.println("Name: " + y.getName());
-        System.out.println("Diameter: " + y.getDiameter());
-        System.out.println("Temperature: " + y.getTemperature());
-        
-
-
-        CelestialObject z = new CelestialObject();
-        System.out.println("Name: " + z.getName());
-        z.setName(null);
-        System.out.println("Name: " + z.getName());
+        // CelestialObject z = new CelestialObject();
+        // System.out.println("Name: " + z.getName());
+        // z.setName(null);
+        // System.out.println("Name: " + z.getName());
         
 
         
-        CelestialObject d = new CelestialObject();
-        System.out.println("Diameter: " + d.getDiameter());
-        d.setDiameter(-9);
-        System.out.println("Diameter: " + d.getDiameter());
+        // CelestialObject d = new CelestialObject();
+        // System.out.println("Diameter: " + d.getDiameter());
+        // d.setDiameter(-9);
+        // System.out.println("Diameter: " + d.getDiameter());
         
     
+        // CelestialObject t = new CelestialObject();
+        // System.out.println("Temperature: " + t.getTemperature());
+        // t.setTemperature(100);
+        // System.out.println("Temperature: " + t.getTemperature());
         
-        CelestialObject t = new CelestialObject();
-        System.out.println("Temperature: " + t.getTemperature());
-        t.setTemperature(100);
-        System.out.println("Temperature: " + t.getTemperature());
-        */
-
         
         //CelestialObject v = new CelestialObject("BH-2939", 157.8, 780);
         //System.out.println(v);
@@ -69,13 +62,11 @@ public class celestialClient {
 
         // CelestialObject cs = new CelestialObject(n, d, t);
         // System.out.println(cs);
-        
 
-        CelestialObject x = new CelestialObject("celestialObj.txt");  
-        //File y = new File("celestialObj.txt");
-        System.out.println(x.toString());
+        // String fileName = "C:/Users/Zaid/PC/Desktop/Code/CS2/Lab1/Lab1/hello.txt";
+        // CelestialObject x = new CelestialObject(fileName);  
+        // System.out.println(x.toString());
         
-
     }
     
 }

@@ -1,9 +1,6 @@
 package Lab1;
-import java.io.File;
+import java.io.*;
 import java.util.Scanner;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.FileNotFoundException;
 
 // Maahir Vohra
 // 10/11/22
@@ -36,24 +33,15 @@ public class CelestialObject {
     }
     
     public CelestialObject(String s) throws IOException, FileNotFoundException {
-        File m = new File(s);
-        Scanner in = new Scanner(m);
         
-        String nameF;
-        double diameterF;
-        int temperatureF;
+        File newFile = new File(s);
+        Scanner in = new Scanner(newFile);
         
-        while(in.hasNext()) {
-            nameF = in.nextLine();
-            in.nextLine();
-            diameterF = in.nextDouble();
-            temperatureF = in.nextInt();
-            
-            nameF = name;
-            diameterF = diameter;
-            temperatureF = temperature;
-        }
-        //m.close();
+        this.name = in.nextLine();
+        this.diameter = in.nextDouble();
+        this.temperature = in.nextInt();
+        
+        in.close();
         
     }
     //setter for diameter. Input diameter, no output
@@ -93,7 +81,7 @@ public class CelestialObject {
             name = MIN_NAME;
         }
         else{
-            name = name;
+            name = n;
         }
     }
     
