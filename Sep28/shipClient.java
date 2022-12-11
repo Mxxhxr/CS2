@@ -13,6 +13,9 @@ public class shipClient {
         y.setPassengers(45);
 
         System.out.println("Ship x Tonnage: " + x.getTonnage() + " Passengers: " + x.getPassengers());
+
+        Ship z = new Ship(24, 40);
+        System.out.println(z);
     }
     
 }

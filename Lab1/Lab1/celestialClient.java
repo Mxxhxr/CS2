@@ -2,6 +2,8 @@ package Lab1;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
+
+import Lab3.Car;
 public class celestialClient {
 
     public static void main(String[] args) throws IOException {
@@ -66,6 +68,8 @@ public class celestialClient {
         // String fileName = "C:/Users/Zaid/PC/Desktop/Code/CS2/Lab1/Lab1/hello.txt";
         // CelestialObject x = new CelestialObject(fileName);  
         // System.out.println(x.toString());
+
+        Car c = new Car(2001,20000,"    ","")
         
     }
     
